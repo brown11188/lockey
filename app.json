@@ -28,7 +28,11 @@
       },
       "package": "com.lockey.app",
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -47,6 +51,12 @@
           "photosPermission": "Lockey needs photo library access to attach images to your expenses."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "843dbdba-7c50-4cd4-8986-b5ef08c26c7b"
+      }
+    },
+    "owner": "brown11188"
   }
 }
